@@ -8,9 +8,9 @@
 		(title "Fuente Regulada con Protección Foldback - Grupo 5")
 		(date "2026-04-10")
 		(company "FIUBA - TA138")
-		(comment 1 "Lautaro, García Vitale - Padrón: 110028")
-		(comment 2 "Santiago Manuel, Cabrera - Padrón: 110445")
-		(comment 3 "Francisco Javier, Moya - Padrón: 109899")
+		(comment 1 "Lautaro García Vitale - Padrón: 110028")
+		(comment 2 "Santiago Manuel Cabrera - Padrón: 110445")
+		(comment 3 "Francisco Javier Moya - Padrón: 109899")
 		(comment 4 "Integrantes:")
 	)
 	(lib_symbols
@@ -3472,7 +3472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f94f74-dc09-43b9-981e-4eb80eeb6a31")
-		(property "Reference" "Q10"
+		(property "Reference" "Q5"
 			(at 186.69 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,7 +3561,7 @@
 		(instances
 			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
-					(reference "Q10")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3579,7 +3579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e5bb14f-fb9d-4719-b46c-8c5f65c60b66")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 120.65 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,7 +3671,7 @@
 		(instances
 			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3799,7 +3799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43899140-a602-4f1f-a39a-13995b8e0b8c")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 116.84 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +3863,7 @@
 		(instances
 			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82b707d-9bf4-40ff-847c-361bdc8b8117")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 107.95 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +5729,7 @@
 		(instances
 			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6150,7 +6150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9fc150-6082-4c24-9584-77682cd074dc")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 77.47 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6214,7 +6214,7 @@
 		(instances
 			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
