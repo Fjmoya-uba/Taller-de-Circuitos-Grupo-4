@@ -647,7 +647,7 @@
         "uuid": "eae11593-a32f-47f8-b90a-5c14f7224f06"
       }
     ],
-    "used_designators": "J2-3,#FLG2,RS2,TP_Vref2",
+    "used_designators": "RS3,C1,R5",
     "variants": []
   },
   "sheets": [
