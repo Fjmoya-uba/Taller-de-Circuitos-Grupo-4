@@ -1,0 +1,113 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 2\Simulaciones Spice\Analisis_termico.net
+Start Time: Wed Apr 22 19:52:59 2026
+Options: logopinfo
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:     u1:D1       u1:D2       u1:D5       u1:D3       u1:D6
+Model:      dx          dx          dx          dx          dx
+Id:     -7.87e-12    5.10e-05    4.64e-04   -3.44e-13    2.25e-06
+Vd:     -7.87e+00    6.38e-01    6.95e-01   -3.43e-01    5.57e-01
+Req:     1.00e+12    5.07e+02    5.57e+01    1.00e+12    1.15e+04
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:     u1:D4
+Model:      dx
+Id:     -1.98e-13
+Vd:     -1.97e-01
+Req:     1.00e+12
+CAP:     0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:      Qtip1         Q1          Q4          Q5          Q6
+Model:      pnp        bc547b      bc547b      bc547b      bc547b
+Ib:      -1.03e-03    2.90e-06    3.10e-06    6.42e-06    6.52e-06
+Ic:      -1.03e-01    9.04e-04    9.23e-04    1.83e-03    1.83e-03
+Vbe:     -8.94e-01    6.34e-01    6.35e-01    6.55e-01    6.55e-01
+Vbc:      3.47e+00   -6.29e+00   -3.27e+00   -1.03e+00    0.00e+00
+Vce:     -4.36e+00    6.92e+00    3.91e+00    1.68e+00    6.55e-01
+BetaDC:   1.00e+02    3.11e+02    2.97e+02    2.86e+02    2.81e+02
+Gm:       3.97e+00    3.44e-02    3.51e-02    6.93e-02    6.91e-02
+Rpi:      2.52e+01    9.01e+03    8.43e+03    4.07e+03    4.01e+03
+Rx:       0.00e+00    1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       4.62e+72    7.51e+04    7.03e+04    3.42e+04    3.37e+04
+Cbe:      0.00e+00    5.84e-11    5.95e-11    8.33e-11    8.34e-11
+Cbc:      0.00e+00    1.00e-12    1.20e-12    1.59e-12    2.31e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.00e+02    3.10e+02    2.96e+02    2.82e+02    2.77e+02
+Cbx:      0.00e+00    6.17e-13    7.37e-13    9.75e-13    1.42e-12
+Ft:       0.00e+00    9.13e+07    9.10e+07    1.28e+08    1.26e+08
+
+Name:        Q7          Q8          Q2          Q3        u1:Q1
+Model:     bc547b      bc547b      bc557b      bc557b        qx
+Ib:       3.47e-06   -5.68e-12   -2.78e-06   -2.50e-06    4.97e-12
+Ic:       1.03e-03    6.16e-12   -8.99e-04   -9.27e-04   -4.69e-12
+Vbe:      6.38e-01    7.03e-02   -6.24e-01   -6.21e-01    2.76e-01
+Vbc:     -2.83e+00   -5.70e+00    0.00e+00    3.01e+00    4.69e+00
+Vce:      3.47e+00    5.78e+00   -6.24e-01   -3.63e+00   -4.42e+00
+BetaDC:   2.95e+02   -1.08e+00    3.23e+02    3.71e+02   -9.44e-01
+Gm:       3.90e-02    1.47e-11    3.40e-02    3.51e-02    8.97e-20
+Rpi:      7.53e+03    6.39e+11    9.48e+03    1.05e+04    1.00e+12
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    0.00e+00
+Ro:       6.29e+04    1.79e+14    2.30e+04    2.56e+04    1.52e+93
+Cbe:      6.26e-11    1.41e-11    5.13e-11    5.17e-11    0.00e+00
+Cbc:      1.25e-12    1.03e-12    6.80e-12    2.01e-12    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.94e+02    9.42e+00    3.23e+02    3.70e+02    8.97e-08
+Cbx:      7.65e-13    6.34e-13    4.02e-12    1.19e-12    0.00e+00
+Ft:       9.61e+07    1.48e-01    8.72e+07    1.02e+08    0.00e+00
+
+Name:      u1:Q2
+Model:       qx
+Ib:      -8.99e-08
+Ic:      -9.99e-05
+Vbe:     -7.15e-01
+Vbc:      3.65e+00
+Vce:     -4.36e+00
+BetaDC:   1.11e+03
+Gm:       3.86e-03
+Rpi:      2.88e+05
+Rx:       0.00e+00
+Ro:       4.79e+75
+Cbe:      0.00e+00
+Cbc:      0.00e+00
+Cjs:      0.00e+00
+BetaAC:   1.11e+03
+Cbx:      0.00e+00
+Ft:       0.00e+00
+
+
+Total elapsed time: 0.655 seconds.
+
+Files loaded:
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 2\Simulaciones Spice\Analisis_termico.net
+C:\Users\fjmoy\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\fjmoy\AppData\Local\LTspice\lib\sub\opamp.sub
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 2\Simulaciones Spice\lm358.lib
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 2\Simulaciones Spice\TL431.mod
+
