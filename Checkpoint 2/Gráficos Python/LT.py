@@ -64,50 +64,63 @@ def find_gain_crossing(freq, mag, phase):
 
 
 # ====== MAIN ======
-data = parse_bode_file("archivos de texto/LT compensado(RL=50).txt")
+data = parse_bode_file("archivos de texto/LC compensado.txt")
 
 # ====== UN GRÁFICO POR CADA CL ======
 
-label = "Step Information: Cl=1µ  (Step: 1/2)"
-d = data[label]
+label1 = "Step Information: $C_L$ = 1µF, $R_L$ = 1 Ω"
+label2 = "Step Information: $C_L$ = 15µF, $R_L$ = 1 Ω"
 
-freq = np.array(d["freq"])
-mag = np.array(d["mag"])
-phase = np.array(d["phase"])
+for label, d in data.items():
+    freq = np.array(d["freq"])
+    mag = np.array(d["mag"])
+    phase = np.array(d["phase"])
+    phase_rad = np.deg2rad(phase)
 
-f_gc, phase_gc = find_gain_crossing(freq, mag, phase)
+    #Unwrap
+    phase_unwrapped = np.unwrap(phase_rad)
+    phase = np.rad2deg(phase_unwrapped)
 
-plt.figure(figsize=(8, 6))
+    f_gc, phase_gc = find_gain_crossing(freq, mag, phase)
 
-# --- MAGNITUD ---
-plt.subplot(2, 1, 1)
-plt.semilogx(freq, mag, color = 'black')
+    plt.figure(figsize=(8, 6))
 
-plt.axhline(0, color = 'black',linestyle='--')
+    # --- MAGNITUD ---
+    plt.subplot(2, 1, 1)
+    plt.semilogx(freq, mag, color = 'black')
 
-if f_gc is not None:
-    plt.plot(f_gc, 0, 'o')
+    plt.axhline(0, color = 'black',linestyle='--')
 
-plt.ylabel("Magnitud [dB]")
-plt.title(f'Bode para $C_L$ = 1µF, $R_L$ = 50 Ω')
-plt.grid(True, which="both")
-plt.xlim(freq.min(), freq.max())
+    if f_gc is not None:
+        plt.plot(f_gc, 0, 'o')
 
-# --- FASE ---
-plt.subplot(2, 1, 2)
-plt.semilogx(freq, phase, color = 'black')
+    plt.ylabel("Magnitud [dB]")
+    if '1µ' in label:
+        plt.title(f'Bode para $C_L$ = 1µF, $R_L$ = 1 Ω')
+    else:
+        plt.title(f'Bode para $C_L$ = 15µF, $R_L$ = 1 Ω')
+    plt.grid(True, which="both")
+    plt.xlim(freq.min(), freq.max())
 
-if f_gc is not None:
-    plt.plot(f_gc, phase_gc, 'o')
-    plt.text(f_gc, phase_gc + 15, f"{phase_gc:.1f}°")
+    # --- FASE ---
+    plt.subplot(2, 1, 2)
+    plt.semilogx(freq, phase, color = 'black')
 
-plt.xlabel("Frecuencia [Hz]")
-plt.ylabel("Fase [°]")
-plt.grid(True, which="both")
-plt.xlim(freq.min(), freq.max())
+    if f_gc is not None:
+        plt.plot(f_gc, phase_gc, 'o')
+        plt.text(f_gc, phase_gc + 15, f"{phase_gc:.1f}°")
+
+    plt.xlabel("Frecuencia [Hz]")
+    plt.ylabel("Fase [°]")
+    plt.grid(True, which="both")
+    plt.xlim(freq.min(), freq.max())
+
+    if '1µ' in label:
+        plt.savefig("LC compensado 1uF.png", dpi=300)
+    else:
+        plt.savefig("LC compensado 15uF.png", dpi=300)
 
 plt.tight_layout()
 
-plt.savefig("LT compensado.png", dpi=300)
 
 plt.show()

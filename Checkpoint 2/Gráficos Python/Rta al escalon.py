@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # --- CONFIGURACIÓN ---
-archivo1 = "archivos de texto/Rta_al_escalon(sin compensar).txt"
-archivo2 = "archivos de texto/Rta_al_escalon(compensada).txt"
+archivo1 = "archivos de texto/LC escalon (sin compensar).txt"
+archivo2 = "archivos de texto/LC escalon (compensado).txt"
 
 # --- FUNCIÓN PARA CARGAR DATOS ---
 def cargar_datos(nombre_archivo):
@@ -31,19 +31,19 @@ plt.figure()
 plt.plot(t1, y1, 'k')  # 'k' = negro
 plt.xlabel("t [s]")
 plt.ylabel(f'$V_o$ [V]')
-plt.title(f'$C_L = 1 \mu F$, $R_L = 50 \Omega$')
+plt.title(f'$C_L = 15 \mu F$, $R_L = 1 \Omega$')
 plt.xlim(t1.min(), t1.max())
 plt.grid(True)
 
-plt.savefig("Rta al escalon(sin compensar).png", dpi=300)
+plt.savefig("Rta al escalon LC (sin compensar).png", dpi=300)
 # --- GRÁFICO 2 ---
 plt.figure()
 plt.plot(t2, y2, 'k')
 plt.xlabel("t [s]")
 plt.ylabel(f'$V_o$ [V]')
-plt.title(f'$C_L = 1 \mu F$, $R_L = 50 \Omega$')
+plt.title(f'$C_L = 15 \mu F$, $R_L = 1 \Omega$')
 plt.xlim(t2.min(), t2.max())
 plt.grid(True)
 
-plt.savefig("Rta al escalon(compensada).png", dpi=300)
+plt.savefig("Rta al escalon LC(compensada).png", dpi=300)
 plt.show()
