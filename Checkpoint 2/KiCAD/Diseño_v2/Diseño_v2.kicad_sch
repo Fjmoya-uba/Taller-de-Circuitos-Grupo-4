@@ -2447,12 +2447,6 @@
 		(uuid "949acda3-11ee-4b24-8441-7eb7e8b61bc2")
 	)
 	(junction
-		(at 254 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c4f45ed-deb4-402b-a487-ba295e9f7eb9")
-	)
-	(junction
 		(at 110.49 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2796,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 105.41) (xy 254 105.41)
+			(xy 251.46 105.41) (xy 256.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2923,16 +2917,6 @@
 			(type default)
 		)
 		(uuid "59bd358c-145a-4e33-a69a-aa3b76c1f94d")
-	)
-	(wire
-		(pts
-			(xy 254 105.41) (xy 254 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a264a68-fc28-4a07-995f-0798b4da8db8")
 	)
 	(wire
 		(pts
@@ -3103,16 +3087,6 @@
 			(type default)
 		)
 		(uuid "745b3861-b5c4-4322-b11a-3ed79e982f78")
-	)
-	(wire
-		(pts
-			(xy 254 114.3) (xy 254 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78df9d1a-638b-407e-8dab-ea0bd212043a")
 	)
 	(wire
 		(pts
@@ -3446,16 +3420,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 105.41) (xy 251.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75f5721-5438-4fd5-a60f-fcf69d7ded7f")
-	)
-	(wire
-		(pts
 			(xy 187.96 106.68) (xy 187.96 109.22)
 		)
 		(stroke
@@ -3573,16 +3537,6 @@
 			(type default)
 		)
 		(uuid "f52ccb00-760c-4163-ba9c-e5d4a2b6a0e7")
-	)
-	(wire
-		(pts
-			(xy 254 123.19) (xy 254 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4df24a-d7c1-4e21-acb6-3d616d945d8b")
 	)
 	(label "Vo"
 		(at 185.42 114.3 0)
@@ -4155,88 +4109,6 @@
 			(project "Diseño_v2"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "J_LT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 110.49 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23716da8-332c-44e7-bad7-2498a4d6e400")
-		(property "Reference" "C_COMP2"
-			(at 257.81 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 257.81 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 253.0348 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df617860-1375-400d-81dd-779b4b1c8459")
-		)
-		(pin "2"
-			(uuid "43a1e0a4-7b82-4d8a-8342-493816d3999a")
-		)
-		(instances
-			(project "Diseño_v2"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "C_COMP2")
 					(unit 1)
 				)
 			)
@@ -5018,86 +4890,6 @@
 			(project "Diseño_v2"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "TP_Out_PD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d55076c-c5f6-4671-844f-69168c804c60")
-		(property "Reference" "R_COMP2"
-			(at 251.46 119.888 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 256.54 117.856 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 255.778 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "325f4aeb-aa6d-4521-bbbb-e36003c372ce")
-		)
-		(pin "2"
-			(uuid "b312422f-f41d-48ec-aa60-c502c10c99cf")
-		)
-		(instances
-			(project "Diseño_v2"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "R_COMP2")
 					(unit 1)
 				)
 			)
@@ -6199,7 +5991,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "22"
 			(at 148.59 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6825,7 +6617,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68n"
+		(property "Value" "330n"
 			(at 149.86 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7363,84 +7155,6 @@
 			(project "Diseño_v2"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d108c95c-8205-453f-901e-ae698289ebe4")
-		(property "Reference" "#PWR010"
-			(at 254 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8df625ef-7791-453c-9d56-05d95918c61f")
-		)
-		(instances
-			(project "Diseño_v2"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
