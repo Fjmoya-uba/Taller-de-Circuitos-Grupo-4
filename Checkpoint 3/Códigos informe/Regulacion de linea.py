@@ -50,15 +50,15 @@ plt.figure()
 
 plt.plot(Vreg_simu, Vo_simu[:, 0], color = 'grey', label='Simulación', linestyle='--')
 plt.plot(Vreg_medida, Vo_medida, color = 'black', label='Medición', linewidth=2.5, marker='o', markersize=5)
-plt.plot(x_fit, y_ajuste, color='cyan', linewidth=1.5, linestyle='-.', label=f'RegLin =  {m*1000:.2f} mV/V'.replace('.', ','))
+plt.plot(x_fit, y_ajuste, color='cyan', linewidth=1.5, linestyle='-.', label = rf'$\mathrm{{Reg}}_{{\mathrm{{lín}}}} = {m*1000:.2f}\,\mathrm{{mV/V}}$'.replace('.', ','))
 
 plt.xlabel(r'$V_\mathrm{{REG}} \quad [\mathrm{V}]$')
 plt.xlim(np.min(Vreg_medida), np.max(Vreg_medida))
-plt.axvline(x = 6, linestyle = '--', color='red', linewidth=1.5, label=r'$V_\mathrm{{REG}}^\mathrm{{min}}|_{{V_{{O}} = 5\,\mathrm{{V}}}}$', alpha = 0.5)
+plt.axvline(x = 6, linestyle = '--', color='red', linewidth=1.5, label=r'$V_\mathrm{{REG}}^\mathrm{{min}}|_{{V_{{o}} = 5\,\mathrm{{V}}}}$', alpha = 0.5)
 plt.text(6.5, 0.5, '6 V', ha='center', fontsize=9, color='red')
 plt.legend()
 
-plt.ylabel(r'$V_{{O}} \quad [\mathrm{V}]$')
+plt.ylabel(r'$V_{{o}} \quad [\mathrm{V}]$')
 
 plt.title("Regulación de Línea")
 plt.grid()
