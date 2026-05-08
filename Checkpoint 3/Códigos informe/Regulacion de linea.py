@@ -31,19 +31,34 @@ df = df.dropna(subset=["Vreg", "Vo"])
 Vreg_medida = df["Vreg"].to_numpy()
 Vo_medida   = df["Vo"].to_numpy()
 
+# ============================================================
+# AJUSTE LINEAL EN LA ZONA REGULADA
+# ============================================================
+
+mask = Vreg_medida >= 6
+
+x_fit = Vreg_medida[mask]
+y_fit = Vo_medida[mask]
+
+# ajuste lineal y = m*x + b
+m, b = np.polyfit(x_fit, y_fit, 1)
+
+# recta ajustada
+y_ajuste = m*x_fit + b
 
 plt.figure()
 
 plt.plot(Vreg_simu, Vo_simu[:, 0], color = 'grey', label='Simulación', linestyle='--')
-plt.plot(Vreg_medida, Vo_medida, color = 'black', label='Medición', linewidth=2.5)
+plt.plot(Vreg_medida, Vo_medida, color = 'black', label='Medición', linewidth=2.5, marker='o', markersize=5)
+plt.plot(x_fit, y_ajuste, color='cyan', linewidth=1.5, linestyle='-.', label=f'RegLin =  {m*1000:.2f} mV/V'.replace('.', ','))
 
-plt.xlabel(f'$V_\mathrm{{REG}} \quad [V]$')
+plt.xlabel(r'$V_\mathrm{{REG}} \quad [\mathrm{V}]$')
 plt.xlim(np.min(Vreg_medida), np.max(Vreg_medida))
-plt.axvline(x = 6, linestyle = '--', color='red', linewidth=1, label=f'$V_\mathrm{{REG}}^\mathrm{{min}}|_{{V_{{O}} = 5\,\mathrm{{V}}}}$', alpha = 0.5)
+plt.axvline(x = 6, linestyle = '--', color='red', linewidth=1.5, label=r'$V_\mathrm{{REG}}^\mathrm{{min}}|_{{V_{{O}} = 5\,\mathrm{{V}}}}$', alpha = 0.5)
 plt.text(6.5, 0.5, '6 V', ha='center', fontsize=9, color='red')
 plt.legend()
 
-plt.ylabel(f'$V_{{O}} \quad [V]$')
+plt.ylabel(r'$V_{{O}} \quad [\mathrm{V}]$')
 
 plt.title("Regulación de Línea")
 plt.grid()
