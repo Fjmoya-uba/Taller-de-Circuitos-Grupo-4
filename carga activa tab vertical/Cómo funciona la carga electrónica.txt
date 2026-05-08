@@ -1,0 +1,22 @@
+La fuente de tensión V2 simula la salida del potenciómetro, el cual está conectado entre alimentación y tierra
+Varía de 0 a 5
+Viendo la placa desde arriba, con el potenciómetro a la derecha, en la bornera de la izquierda va el regulador de tensión y en la bornera de la derecha va la fuente
+de alimentación
+
+Concepto: variando el potenciómetro, varío cuánta corriente saco del regulador. 
+Explicación: (ver la simulación "carga_activa rail to rail.asc")
+
+La tensión V2 sube linealmente. Está conectada la la entrada + del operacional U1, por lo que la salida del operacional
+(que va al gate del transistor IRF) sube con V2. Cuanto mayor sea V2, mayor es Vg, haciendo que el transistor conduzca más.
+
+Además, la resistencia R2 sensa la corriente de salida. Produce una tensión que entra a la entrada + de U2, el cual está en configuración no inversor. 
+La salida de U2 es proporcional a la corriente de salida, y se resta a la tensión V2 en el operacional U1. 
+
+Se puede pensar a la inversa: el potenciómetro (fuente V2) fija el valor de la salida de U2, lo que fija la caída en R2, fijando la corriente.
+
+¿Cómo usar la carga electrónica?
+
+1)Poner el potenciómetro a 0, de manera tal que la salida del mismo (pin del medio) esté a 0 V y no saque corriente.
+Creo que sería girar el potenciómetro en sentido antihorario hasta el tope, mirándolo de frente.
+
+2) Girarlo en sentido horario hasta que corte el lazo de corriente. (Si funcionara bien).
