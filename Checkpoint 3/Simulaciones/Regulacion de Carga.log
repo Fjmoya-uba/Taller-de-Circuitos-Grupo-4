@@ -1,0 +1,144 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Santiago\Desktop\facu\2026c1\Circuitos G4\Checkpoint 3\Simulaciones\Regulacion de Carga.asc
+Start Time: Fri May  8 17:10:37 2026
+solver = Normal
+Maximum thread count: 4
+
+
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.02567e-05
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.0104167
+Gmin = 1.01307e-05
+vernier = 0.0138889
+Gmin = 9.82804e-06
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 9.35207e-06
+vernier = 0.0329218
+vernier = 0.0438957
+Gmin = 8.64552e-06
+vernier = 0.0585276
+Gmin = 7.61288e-06
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 6.18637e-06
+vernier = 0.138732
+vernier = 0.184976
+Gmin = 4.46171e-06
+vernier = 0.246634
+Gmin = 2.63884e-06
+vernier = 0.328846
+vernier = 0.438461
+Gmin = 1.1325e-06
+vernier = 0.584614
+vernier = 0.779486
+Gmin = 3.06015e-07
+vernier = 1
+Gmin = 4.11705e-08
+Gmin = 4.42065e-09
+Gmin = 4.74664e-10
+Gmin = 5.09667e-11
+Gmin = 5.4725e-12
+Gmin = 5.87606e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u1:5      d:u1:6      d:u1:4
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -7.19e-12   -4.59e-14    2.02e-05    6.70e-05   -2.87e-13
+Vd:     -7.19e+00   -4.51e-02    6.14e-01    6.45e-01   -2.86e-01
+Req:     1.00e+12    9.93e+11    1.28e+03    3.86e+02    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:3      d:u2:1      d:u2:2      d:u2:3
+Model:    u1:dx     u2:d4mod    u2:d2mod    u2:d3mod
+Id:     -2.55e-13    5.55e-16   -7.00e-09   -1.26e-12
+Vd:     -2.54e-01    0.00e+00   -2.50e+00   -1.25e+00
+Req:     1.00e+12    7.39e+06    1.00e+12    1.00e+12
+CAP:     0.00e+00    4.00e-12    1.91e-12    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q1          q4          q5          q6          q7
+Model:    bc547b      bc547b      bc547b      bc547b      bc547b
+Ib:       6.12e-06   -2.98e-12    6.65e-06    6.65e-06    1.26e-05
+Ic:       1.90e-03    1.13e-12    1.90e-03    1.87e-03    3.91e-03
+Vbe:      6.54e-01   -1.84e+00    6.56e-01    6.56e-01    6.73e-01
+Vbc:     -6.36e+00   -1.07e+00   -1.19e+00    0.00e+00   -7.50e+00
+Vce:      7.01e+00   -7.77e-01    1.85e+00    6.56e-01    8.18e+00
+BetaDC:   3.10e+02   -3.80e-01    2.86e+02    2.81e+02    3.11e+02
+Gm:       7.18e-02   -1.45e-30    7.19e-02    7.06e-02    1.46e-01
+Rpi:      4.27e+03    1.00e+12    3.93e+03    3.93e+03    2.08e+03
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       3.58e+04    6.90e+29    3.30e+04    3.30e+04    1.76e+04
+Cbe:      8.38e-11    8.74e-12    8.49e-11    8.43e-11    1.25e-10
+Cbc:      1.00e-12    1.57e-12    1.54e-12    2.31e-12    9.56e-13
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   3.07e+02   -1.45e-18    2.83e+02    2.77e+02    3.04e+02
+Cbx:      6.15e-13    9.67e-13    9.44e-13    1.42e-12    5.88e-13
+Ft:       1.34e+08    1.41e-02    1.31e+08    1.28e+08    1.84e+08
+
+Name:       q8          q2          q3        qtip32a     q:u1:1
+Model:    bc547b      bc557b      bc557b        pnp        u1:qx
+Ib:       9.04e-06   -5.86e-06   -5.77e-06   -3.91e-03   -4.49e-08
+Ic:       2.54e-03   -1.89e-03   -2.56e-03   -3.91e-01   -4.99e-05
+Vbe:      6.64e-01   -6.44e-01   -6.44e-01   -9.29e-01   -6.97e-01
+Vbc:     -4.05e-01    0.00e+00    7.79e+00    8.18e+00    2.60e-01
+Vce:      1.07e+00   -6.44e-01   -8.43e+00   -9.10e+00   -9.57e-01
+BetaDC:   2.81e+02    3.22e+02    4.43e+02    1.00e+02    1.11e+03
+Gm:       9.56e-02    7.05e-02    9.57e-02    1.51e+01    1.93e-03
+Rpi:      2.89e+03    4.48e+03    4.56e+03    6.61e+00    5.76e+05
+Rx:       1.00e+00    1.00e+00    1.00e+00    0.00e+00    0.00e+00
+Ro:       2.44e+04    1.10e+04    1.11e+04    0.00e+00    6.12e+18
+Cbe:      9.91e-11    7.32e-11    8.72e-11    0.00e+00    0.00e+00
+Cbc:      1.88e-12    6.82e-12    1.44e-12    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.76e+02    3.16e+02    4.36e+02    1.00e+02    1.11e+03
+Cbx:      1.16e-12    4.02e-12    8.52e-13    0.00e+00    0.00e+00
+Ft:       1.49e+08    1.34e+08    1.70e+08    0.00e+00    0.00e+00
+
+Name:     q:u1:2      q:u2:1      q:u2:2
+Model:     u1:qx     u2:qn3904   u2:qn3904
+Ib:      -4.50e-08    2.36e-06    1.04e-04
+Ic:      -5.00e-05    1.93e-04    8.25e-03
+Vbe:     -6.97e-01    6.04e-01    5.99e-01
+Vbc:      2.60e-01   -1.25e+00   -1.90e+00
+Vce:     -9.57e-01    1.85e+00    2.50e+00
+BetaDC:   1.11e+03    8.18e+01    7.92e+01
+Gm:       1.93e-03    7.39e-03    3.17e-01
+Rpi:      5.75e+05    1.45e+04    3.29e+02
+Rx:       0.00e+00    0.00e+00    0.00e+00
+Ro:       6.10e+18    5.25e+05    1.23e+04
+Cbe:      0.00e+00    9.75e-12    4.66e-10
+Cbc:      0.00e+00    2.53e-12    1.15e-10
+Cjs:      0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.11e+03    1.07e+02    1.04e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    9.58e+07    8.68e+07
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 0.447 seconds.
+
