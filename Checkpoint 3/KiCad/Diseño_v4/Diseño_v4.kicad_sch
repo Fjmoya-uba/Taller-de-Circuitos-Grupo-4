@@ -2170,12 +2170,6 @@
 		(uuid "81f904d2-2d12-403f-b381-a1a1468dada1")
 	)
 	(junction
-		(at 157.48 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a0e4ba0-d0f5-47ea-ac09-2954cb61235b")
-	)
-	(junction
 		(at 132.08 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2192,6 +2186,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "257dbf2d-d569-4557-9f60-01015070ab5d")
+	)
+	(junction
+		(at 157.48 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2deff0c5-50c5-46ed-ab08-8ae377b3d779")
 	)
 	(junction
 		(at 81.28 124.46)
@@ -2258,18 +2258,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71bd98d8-a9a2-4627-af06-2e53a97f312b")
-	)
-	(junction
-		(at 139.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72c23175-d993-481f-b03e-f7a0f1412d23")
-	)
-	(junction
-		(at 165.1 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73fa4aa5-4d6e-41d5-96b9-e8a578735e10")
 	)
 	(junction
 		(at 88.9 53.34)
@@ -2356,22 +2344,16 @@
 		(uuid "e31161e6-2cf2-4f13-96b2-f7eb4c85c834")
 	)
 	(junction
-		(at 256.54 105.41)
+		(at 254 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e442e64b-1694-4352-b695-a4e9bea71c4a")
 	)
 	(junction
-		(at 177.8 134.62)
+		(at 269.24 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e633a360-f6c3-43ef-88f5-53fe3f6300cf")
-	)
-	(junction
-		(at 259.08 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbcef98e-9f0d-44c6-b52a-52452b4194de")
+		(uuid "ff25f57b-8e17-4acf-ad30-1deee6830797")
 	)
 	(junction
 		(at 232.41 107.95)
@@ -2388,6 +2370,16 @@
 			(type default)
 		)
 		(uuid "0030b35b-96ab-4791-b826-650ba2feee45")
+	)
+	(wire
+		(pts
+			(xy 269.24 105.41) (xy 269.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d78988-19b4-4190-84e9-142f99a19982")
 	)
 	(wire
 		(pts
@@ -2481,16 +2473,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 170.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138abf93-5d9c-45b5-9e62-6701ccd2bfa9")
-	)
-	(wire
-		(pts
 			(xy 210.82 60.96) (xy 210.82 54.61)
 		)
 		(stroke
@@ -2521,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 256.54 88.9)
+			(xy 246.38 88.9) (xy 254 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2558,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "23f2fb62-d0fd-4ed0-ac80-ed5015011010")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24724470-0312-4df5-a6b9-541db8fde2f7")
 	)
 	(wire
 		(pts
@@ -2741,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 105.41) (xy 256.54 105.41)
+			(xy 251.46 105.41) (xy 254 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2788,6 +2780,16 @@
 			(type default)
 		)
 		(uuid "4d7c3e6a-74f3-4873-b08f-9c39b18b3a32")
+	)
+	(wire
+		(pts
+			(xy 279.4 105.41) (xy 280.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f61c31e-9d42-492b-8a98-552216db6507")
 	)
 	(wire
 		(pts
@@ -2921,6 +2923,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 102.87) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699110ff-1572-435a-b8ff-9c6758e8344c")
+	)
+	(wire
+		(pts
 			(xy 88.9 76.2) (xy 88.9 96.52)
 		)
 		(stroke
@@ -2941,26 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 134.62) (xy 177.8 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9f53d1-7fd6-49b9-9295-880f168afeed")
-	)
-	(wire
-		(pts
-			(xy 177.8 134.62) (xy 187.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eccdee7-c2da-4316-85a7-bb6784d334b2")
-	)
-	(wire
-		(pts
 			(xy 132.08 64.77) (xy 132.08 71.12)
 		)
 		(stroke
@@ -2971,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 157.48 95.25)
+			(xy 157.48 86.36) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3141,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 146.05 86.36)
+			(xy 132.08 86.36) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3191,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 157.48 109.22)
+			(xy 157.48 107.95) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3218,16 +3210,6 @@
 			(type default)
 		)
 		(uuid "9bc862de-f733-49d3-ab76-bc15fcfef8c0")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c33c1c3-657d-4824-9dab-ba67fb125c41")
 	)
 	(wire
 		(pts
@@ -3291,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 105.41) (xy 269.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3024c70-fa7a-45e8-af14-0714102147e9")
+	)
+	(wire
+		(pts
 			(xy 86.36 113.03) (xy 86.36 107.95)
 		)
 		(stroke
@@ -3298,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "b39c2cea-777a-46db-afa2-d336a07462b4")
-	)
-	(wire
-		(pts
-			(xy 259.08 105.41) (xy 260.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bd5594-f493-4a70-840c-171657d8a70d")
 	)
 	(wire
 		(pts
@@ -3321,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 177.8 134.62)
+			(xy 177.8 127) (xy 177.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3351,7 +3333,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 105.41) (xy 259.08 105.41)
+			(xy 254 105.41) (xy 260.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3511,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 88.9) (xy 256.54 105.41)
+			(xy 254 88.9) (xy 254 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3612,7 @@
 		(uuid "52000310-b83a-4620-bae4-04c819e6e6e0")
 	)
 	(label "Vf"
-		(at 270.51 105.41 0)
+		(at 280.67 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3640,7 +3622,7 @@
 		(uuid "691d6e85-ffe0-43c3-9890-2d1af6b4833d")
 	)
 	(label "Vf"
-		(at 170.18 100.33 0)
+		(at 170.18 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3772,84 +3754,6 @@
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 114.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "039655d3-4532-4f65-9e1b-80f46ad40954")
-		(property "Reference" "TP_Out_f1"
-			(at 142.494 119.634 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 137.16 116.3321 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1ff1a84-a4b7-4520-81bf-d562f65eace1")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_Out_f1")
 					(unit 1)
 				)
 			)
@@ -4114,85 +4018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 134.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ad0962d-fb86-4ac2-a1e9-b7bc65088841")
-		(property "Reference" "TP_GND1"
-			(at 193.04 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 193.04 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 187.96 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4fc0910-f7c7-4c57-9566-a78a7e9cf507")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 67.31 55.88 180)
 		(unit 1)
@@ -4354,8 +4179,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 99.06 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 274.32 105.41 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4363,31 +4189,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3205a6e9-153e-477e-87c3-985f3153ebd2")
-		(property "Reference" "TP_LC1"
-			(at 166.37 95.758 0)
+		(uuid "30081f79-65f3-44d9-bfd2-509876dac66d")
+		(property "Reference" "J_LC2"
+			(at 272.542 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" ""
-			(at 166.3699 93.98 90)
+			(at 275.5899 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 170.18 99.06 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 274.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 99.06 0)
+			(at 274.32 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4408,8 +4234,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 165.1 99.06 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 274.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,93 +4244,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "0083ad24-3748-482a-adf5-f757272b76c9")
 		)
 		(pin "1"
-			(uuid "f1abd067-42c5-4720-85ad-af23dbe9c8ca")
+			(uuid "2b6aea78-88ab-47f2-a6f1-a52cfba38cb0")
 		)
 		(instances
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_LC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3256fd91-6bfc-4b4c-9b05-8bea62f0877f")
-		(property "Reference" "TP_GND2"
-			(at 148.59 70.3579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 147.3199 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 151.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9a79c92-bbe4-44cb-aa10-f9cc6b4d2120")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_GND2")
+					(reference "J_LC2")
 					(unit 1)
 				)
 			)
@@ -4512,7 +4262,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC547")
-		(at 160.02 100.33 0)
+		(at 160.02 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4523,7 +4273,7 @@
 		(dnp no)
 		(uuid "3438de41-b8f3-444a-9c65-fc289eb7ec73")
 		(property "Reference" "Q9"
-			(at 161.798 96.52 0)
+			(at 161.798 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4534,7 +4284,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 164.084 105.156 0)
+			(at 164.084 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4545,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 154.94 102.235 0)
+			(at 154.94 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +4308,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 160.02 100.33 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4570,7 +4320,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 160.02 100.33 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4331,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 160.02 100.33 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,7 +4342,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 160.02 100.33 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4724,6 +4474,86 @@
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37cbfa07-2195-4f93-a014-b35c3354c056")
+		(property "Reference" "R_LC3"
+			(at 263.652 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k9"
+			(at 265.684 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 264.16 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eece5608-4434-48a6-b3e3-ab3febfe7f98")
+		)
+		(pin "2"
+			(uuid "e6f06e62-b3a8-4344-868c-b8caeca50d08")
+		)
+		(instances
+			(project "Diseño_v4"
+				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
+					(reference "R_LC3")
 					(unit 1)
 				)
 			)
@@ -5295,86 +5125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54f5c6db-34a3-467c-8620-5e75782daa8a")
-		(property "Reference" "TP_Out_PD1"
-			(at 143.256 81.026 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 148.59 84.3279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8f6145c-df25-4f0d-8ee5-f6fb780841c6")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_Out_PD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 259.08 113.03 0)
+		(at 269.24 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5385,7 +5137,7 @@
 		(fields_autoplaced yes)
 		(uuid "563646b9-ff69-4fff-803a-dde43ff7f43a")
 		(property "Reference" "#PWR014"
-			(at 259.08 119.38 0)
+			(at 269.24 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 118.11 0)
+			(at 269.24 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5406,7 +5158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 113.03 0)
+			(at 269.24 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5417,7 +5169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 113.03 0)
+			(at 269.24 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 113.03 0)
+			(at 269.24 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5445,84 +5197,6 @@
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e1a1ee7-fbc1-472e-9131-00b628b4796a")
-		(property "Reference" "#PWR011"
-			(at 146.05 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e0295ae-09db-4d9e-b2bb-73d90acb014e")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6781,7 +6455,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 265.43 105.41 0)
+		(at 157.48 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6790,8 +6464,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97a1f62e-2006-41f8-bbea-a4dac40ff3e2")
-		(property "Reference" "J_Vref2"
-			(at 267.208 107.188 0)
+		(property "Reference" "J_LC1"
+			(at 159.258 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6802,7 +6476,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 264.1601 106.68 90)
+			(at 158.75 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6813,7 +6487,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 265.43 105.41 0)
+			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 110.49 0)
+			(at 162.56 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +6509,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 265.43 113.03 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +6528,7 @@
 		(instances
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "J_Vref2")
+					(reference "J_LC1")
 					(unit 1)
 				)
 			)
@@ -7569,10 +7243,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8ea8e73-176e-4ee9-8ab7-ed3ae9fb5afb")
 		(property "Reference" "C_COMP1"
-			(at 149.86 91.4399 0)
+			(at 134.62 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7583,7 +7256,7 @@
 			)
 		)
 		(property "Value" "330n"
-			(at 149.86 93.9799 0)
+			(at 134.62 93.2179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7721,7 +7394,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 109.22 0)
+		(at 269.24 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7730,8 +7403,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb437f46-656a-4a9b-a69c-33319fc54ea0")
-		(property "Reference" "R_pull_down1"
-			(at 261.62 108.712 90)
+		(property "Reference" "R_LC2"
+			(at 271.78 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7740,8 +7413,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 256.54 110.744 90)
+		(property "Value" "1k"
+			(at 266.7 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7752,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 257.302 109.22 90)
+			(at 267.462 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 109.22 0)
+			(at 269.24 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7447,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 259.08 109.22 0)
+			(at 269.24 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +7466,7 @@
 		(instances
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "R_pull_down1")
+					(reference "R_LC2")
 					(unit 1)
 				)
 			)
@@ -8445,8 +8118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 53.34 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 138.43 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8454,31 +8127,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d63ab118-8b07-4951-9c57-d3309e7ee2ba")
-		(property "Reference" "Vreg1"
-			(at 180.34 48.768 0)
+		(uuid "d41bea95-9615-4582-bc31-6d594b8dea11")
+		(property "Reference" "J_QD1"
+			(at 140.208 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" ""
-			(at 180.34 51.3079 0)
+			(at 137.1601 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 182.88 53.34 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 138.43 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8489,7 +8162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 53.34 0)
+			(at 138.43 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,8 +8172,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 177.8 53.34 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 138.43 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,14 +8182,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "3d0559bd-5856-459b-bfde-1c56d018df95")
 		)
 		(pin "1"
-			(uuid "44bb005c-4bf4-41f5-9546-3892f7856d79")
+			(uuid "7d88e882-671a-4a8d-bc99-675a1770d173")
 		)
 		(instances
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "Vreg1")
+					(reference "J_QD1")
 					(unit 1)
 				)
 			)
@@ -8948,84 +8624,6 @@
 			(project "Diseño_v4"
 				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
 					(reference "RS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 102.87 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3cadb78-b22b-433e-84f7-5de0320e84ff")
-		(property "Reference" "TP_Vref1"
-			(at 100.076 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 105.41 98.2979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 102.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b173e38-b93d-4cf7-a713-af88d828fa12")
-		)
-		(instances
-			(project "Diseño_v4"
-				(path "/eae11593-a32f-47f8-b90a-5c14f7224f06"
-					(reference "TP_Vref1")
 					(unit 1)
 				)
 			)
