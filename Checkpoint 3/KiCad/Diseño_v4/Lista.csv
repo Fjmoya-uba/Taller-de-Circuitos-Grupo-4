@@ -1,0 +1,66 @@
+Reference				Qty				Value
+
+                Capacitores
+C_COMP1				1				330n
+C_Op2				1				0.1u
+
+                Borneras
+Gen_In1				1				
+Gen_In2				1				
+
+
+                Jumpers
+J1				1				Conn_01x02
+J2				1				Conn_01x02
+J_FC1				1				
+J_LC1				1				
+J_LC2				1				
+J_LT1				1				
+J_QD1				1				
+J_Vref1				1	
+
+
+                Transistores
+Q1				1				BC547
+Q2				1				BC547
+Q3				1				BC557
+Q4				1				BC557
+Q5				1				BC547
+Q6				1				TIP32A
+Q7				1				BC547
+Q8				1				BC547
+Q9				1				BC547
+
+                Resistores
+R1				1				680
+R2				1				4k7
+R3				1				10k
+R4				1				10k
+R5				1				1Meg
+R6				1				1Meg
+RE1				1				100
+RE2				1				100
+RE3				1				100
+RE4				1				100
+Rf1				1				10k
+Ro1				1				150
+Rref1				1				1k2
+RS1				1				1.8
+RS2				1				2.2
+Rx1				1				3k9
+Rx2				1				10k
+R_COMP1				1				22
+R_LC2				1				1k
+R_LC3				1				3k9
+
+
+                    Test points
+TP_GND4				1				
+TP_GND5				1				
+TP_Vo1				1				
+TP_Vx1				1				
+
+
+                    Integrados
+U1				1				TL431LP
+U2				1				LM358
