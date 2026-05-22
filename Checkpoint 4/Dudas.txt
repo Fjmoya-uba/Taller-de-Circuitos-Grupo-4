@@ -1,0 +1,13 @@
+¿Para qué se pone una resistencia de pull-up a la salida del comparador? ¿Por qué no
+se pone la resistencia de pull-up a la salida del opamp?
+¿Cómo se elige la resistencia de pull-up?
+
+¿Tiene alguna ventaja trabajar a frecuencias más altas?
+
+Sabemos que necesitamos componentes rápidos. Parámetro para comparar: slew rate
+También necesitamos un comparador que funcione rail to rail. Si no es rail to rail cambia el análisis
+que hicimos, ya que cambian los tiempos de carga y descarga del capacitor.
+¿Qué otra característica es importante tener en cuenta?
+
+Tenemos que limitar el duty cycle? Es decir ¿tenemos que evitar que sea 0% 0 100%? 
+O nos da igual?
