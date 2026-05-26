@@ -10,7 +10,7 @@
 		(company "FIUBA - Taller de Circuitos - Checkpoint 4")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL062"
+		(symbol "Amplifier_Operational:TL072"
 			(pin_names
 				(offset 0.127)
 			)
@@ -30,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL062"
+			(property "Value" "TL072"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -52,7 +52,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl061.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -106,7 +106,7 @@
 					)
 				)
 			)
-			(symbol "TL062_1_1"
+			(symbol "TL072_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -174,7 +174,7 @@
 					)
 				)
 			)
-			(symbol "TL062_2_1"
+			(symbol "TL072_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -242,7 +242,7 @@
 					)
 				)
 			)
-			(symbol "TL062_3_1"
+			(symbol "TL072_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -2218,12 +2218,6 @@
 		(uuid "0c0a63d8-8d8d-4881-96c5-e9c1d01700cc")
 	)
 	(junction
-		(at 127 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1074b5af-f30a-4f6d-99eb-559a22026055")
-	)
-	(junction
 		(at 95.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2240,12 +2234,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37252656-7bff-4d89-8a5e-feceaf60029d")
-	)
-	(junction
-		(at 78.74 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "412ceb75-fb70-4dda-9c47-f3389c0f3d84")
 	)
 	(junction
 		(at 114.3 38.1)
@@ -2284,10 +2272,10 @@
 		(uuid "66c024d3-bbe9-48d2-9996-72be510e53b5")
 	)
 	(junction
-		(at 127 38.1)
+		(at 127 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e3baa1f-f5eb-4c87-a5b0-dacea79a88da")
+		(uuid "81047d3c-5456-430d-9e4f-dd95f82dcc3e")
 	)
 	(junction
 		(at 241.3 93.98)
@@ -2314,6 +2302,12 @@
 		(uuid "c4bd431c-22ed-48f9-8d57-dd119e2c2a89")
 	)
 	(junction
+		(at 127 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9edc416-8dbd-4e15-ba4c-02d3e7ec4f30")
+	)
+	(junction
 		(at 167.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2330,6 +2324,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6a7cee8-a3e0-4ae7-ac49-452883cd3371")
+	)
+	(junction
+		(at 78.74 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ac70d8-f987-4b5b-aa4a-6dc3439a22b3")
 	)
 	(junction
 		(at 151.13 88.9)
@@ -2395,16 +2395,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 38.1) (xy 137.16 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08623be0-0618-4684-a825-de9309dc376f")
-	)
-	(wire
-		(pts
 			(xy 120.65 38.1) (xy 127 38.1)
 		)
 		(stroke
@@ -2422,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "0b1c8f93-bbb5-455d-8553-fb16438bfcbd")
+	)
+	(wire
+		(pts
+			(xy 127 22.86) (xy 137.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0008f0-22fd-4dad-83f8-952cf032c2cd")
 	)
 	(wire
 		(pts
@@ -2782,6 +2782,16 @@
 			(type default)
 		)
 		(uuid "8e64812e-b987-4a2a-a686-1d03484e1638")
+	)
+	(wire
+		(pts
+			(xy 127 38.1) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa1a7ed-a53f-44aa-b911-bc02776e05bd")
 	)
 	(wire
 		(pts
@@ -3162,16 +3172,6 @@
 			(type default)
 		)
 		(uuid "f4686082-a9ca-43a4-82cc-0c4350d140f6")
-	)
-	(wire
-		(pts
-			(xy 127 22.86) (xy 137.16 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f867d518-f310-48aa-b99b-532e8b3d4c8c")
 	)
 	(wire
 		(pts
@@ -3851,6 +3851,204 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 176.53 91.44 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22c66c9c-1b6d-4776-bc05-c810088af911")
+		(property "Reference" "U4"
+			(at 176.53 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 176.53 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad8bcd7-c529-4e18-8e55-2ffb6d40ea27")
+		)
+		(pin "8"
+			(uuid "7be5ec6b-2235-4c3c-b714-c1a62a91857d")
+		)
+		(pin "5"
+			(uuid "71b320c1-489d-48c0-8e9e-4a9054dcc9b5")
+		)
+		(pin "7"
+			(uuid "4cab2591-f910-43e5-af85-5c71291f9a1f")
+		)
+		(pin "3"
+			(uuid "a9169033-413c-463b-9876-3c7d330b5135")
+		)
+		(pin "4"
+			(uuid "392ac09d-58a3-4438-b6f7-bba3bca49e6b")
+		)
+		(pin "2"
+			(uuid "251ecaf6-d998-4105-9dab-4bf21f96abaf")
+		)
+		(pin "6"
+			(uuid "c837e502-2c3f-42c2-aad9-58f2c7fcc374")
+		)
+		(instances
+			(project "PWM_v1"
+				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 129.54 30.48 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25626172-990e-4015-8dc2-5d8ebabe78ac")
+		(property "Reference" "U4"
+			(at 128.27 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 128.27 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+			(at 129.54 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 129.54 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 129.54 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad8bcd7-c529-4e18-8e55-2ffb6d40ea28")
+		)
+		(pin "8"
+			(uuid "7be5ec6b-2235-4c3c-b714-c1a62a91857e")
+		)
+		(pin "5"
+			(uuid "71b320c1-489d-48c0-8e9e-4a9054dcc9b6")
+		)
+		(pin "7"
+			(uuid "4cab2591-f910-43e5-af85-5c71291f9a20")
+		)
+		(pin "3"
+			(uuid "a9169033-413c-463b-9876-3c7d330b5136")
+		)
+		(pin "4"
+			(uuid "392ac09d-58a3-4438-b6f7-bba3bca49e6c")
+		)
+		(pin "2"
+			(uuid "251ecaf6-d998-4105-9dab-4bf21f96abb0")
+		)
+		(pin "6"
+			(uuid "c837e502-2c3f-42c2-aad9-58f2c7fcc375")
+		)
+		(instances
+			(project "PWM_v1"
+				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 120.65 20.32 0)
 		(unit 1)
@@ -4157,104 +4355,6 @@
 			(project "PWM_v1"
 				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL062")
-		(at 71.12 104.14 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44dd3070-9e48-43c7-81bd-56fc968f3d21")
-		(property "Reference" "U3"
-			(at 71.12 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL062"
-			(at 71.12 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl061.pdf"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f3b7da2c-7434-4f0e-9aa7-7d910def4c29")
-		)
-		(pin "1"
-			(uuid "d8f6ce27-5db9-4612-b905-b6a2419f86ec")
-		)
-		(pin "2"
-			(uuid "92ee7f4e-e060-4d95-9ef6-a00cf6d5d0b7")
-		)
-		(pin "6"
-			(uuid "2c79013f-8f05-4e53-9374-3c3320bd30f2")
-		)
-		(pin "4"
-			(uuid "bc0b02f0-9a7d-4606-b6a6-679437b2222b")
-		)
-		(pin "8"
-			(uuid "9362b2c4-98f4-412e-9444-f586247c65ac")
-		)
-		(pin "5"
-			(uuid "a7d04ff1-4d33-4666-a5c5-08c78e7b9fab")
-		)
-		(pin "7"
-			(uuid "29cba85e-5985-4d8e-a816-de0598fe008e")
-		)
-		(instances
-			(project "PWM_v1"
-				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4581,106 +4681,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL062")
-		(at 129.54 30.48 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4faa1d23-ead9-40c2-bfb6-cea0ff62bd9f")
-		(property "Reference" "U3"
-			(at 128.27 29.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL062"
-			(at 128.27 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl061.pdf"
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
-			(at 129.54 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64382513-30de-4572-8043-9eccdeb51d6b")
-		)
-		(pin "7"
-			(uuid "8321fbbc-5994-4612-a6e0-6cb3f7cd44b4")
-		)
-		(pin "1"
-			(uuid "25a3a4cf-ad23-488a-a1f2-dab900ff4c42")
-		)
-		(pin "3"
-			(uuid "f693f7c1-eee5-4bb0-876a-c381c0273ebf")
-		)
-		(pin "5"
-			(uuid "3425bbf5-0a92-443f-a580-3053b9e5db68")
-		)
-		(pin "6"
-			(uuid "78ebc3db-bcf4-49e4-a0ab-fa808fd3bad5")
-		)
-		(pin "4"
-			(uuid "ecb1d46d-adc7-4868-b0d3-52fbca14ce0e")
-		)
-		(pin "8"
-			(uuid "6aeccf20-d147-4271-8977-828d591b0b98")
-		)
-		(instances
-			(project "PWM_v1"
-				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
 		(at 52.07 90.17 0)
 		(unit 1)
@@ -4832,6 +4832,104 @@
 			(project "PWM_v1"
 				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 71.12 104.14 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c08aac5-01b4-4972-aa8c-fbd3cf2efae2")
+		(property "Reference" "U4"
+			(at 71.12 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 71.12 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad8bcd7-c529-4e18-8e55-2ffb6d40ea29")
+		)
+		(pin "8"
+			(uuid "7be5ec6b-2235-4c3c-b714-c1a62a91857f")
+		)
+		(pin "5"
+			(uuid "71b320c1-489d-48c0-8e9e-4a9054dcc9b7")
+		)
+		(pin "7"
+			(uuid "4cab2591-f910-43e5-af85-5c71291f9a21")
+		)
+		(pin "3"
+			(uuid "a9169033-413c-463b-9876-3c7d330b5137")
+		)
+		(pin "4"
+			(uuid "392ac09d-58a3-4438-b6f7-bba3bca49e6d")
+		)
+		(pin "2"
+			(uuid "251ecaf6-d998-4105-9dab-4bf21f96abb1")
+		)
+		(pin "6"
+			(uuid "c837e502-2c3f-42c2-aad9-58f2c7fcc376")
+		)
+		(instances
+			(project "PWM_v1"
+				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5192,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 109.22 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 140.97 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,104 +5506,6 @@
 				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
 					(reference "C4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL062")
-		(at 176.53 91.44 0)
-		(mirror x)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d469892-5793-4ec1-824a-52c7219af138")
-		(property "Reference" "U3"
-			(at 176.53 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL062"
-			(at 176.53 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl061.pdf"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64382513-30de-4572-8043-9eccdeb51d6c")
-		)
-		(pin "7"
-			(uuid "8321fbbc-5994-4612-a6e0-6cb3f7cd44b5")
-		)
-		(pin "1"
-			(uuid "25a3a4cf-ad23-488a-a1f2-dab900ff4c43")
-		)
-		(pin "3"
-			(uuid "f693f7c1-eee5-4bb0-876a-c381c0273ec0")
-		)
-		(pin "5"
-			(uuid "3425bbf5-0a92-443f-a580-3053b9e5db69")
-		)
-		(pin "6"
-			(uuid "78ebc3db-bcf4-49e4-a0ab-fa808fd3bad6")
-		)
-		(pin "4"
-			(uuid "ecb1d46d-adc7-4868-b0d3-52fbca14ce0f")
-		)
-		(pin "8"
-			(uuid "6aeccf20-d147-4271-8977-828d591b0b99")
-		)
-		(instances
-			(project "PWM_v1"
-				(path "/96456a2a-38fc-4566-b22b-f7a49612c40e"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -5769,7 +5769,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 80.01 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.33u"
 			(at 58.42 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
