@@ -1,0 +1,24 @@
+Reference			Qty			Value
+C1:C3:C4			3			0.1u
+C2			        1			0.33u
+C5			        1			33p
+J1:J2			    2			Conn_01x02
+JP1->JP5			5			Jumper_2_Bridged
+
+
+R1:R2:Rf1			3			510k
+R5			        1			150k
+R6:R9			    2			5k1
+R7:R8			    2			R
+R10:R11			    2			0
+Rf2			        1			56k
+RV1			        1  			10k
+
+
+TP1->TP3			3			TestPoint
+TP4->TP7			4			TestPoint
+
+
+U1			        1			LM7809_TO220
+U2			        1			LM393
+U4			        1			TL072

@@ -5688,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 176.784 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7901,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 176.784 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
