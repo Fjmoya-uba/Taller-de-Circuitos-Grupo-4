@@ -4621,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "560k"
 			(at 54.61 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6423,7 +6423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "560k"
 			(at 54.61 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "560k"
 			(at 120.65 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
